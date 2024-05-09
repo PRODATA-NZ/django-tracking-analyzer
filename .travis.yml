@@ -33,3 +33,5 @@ after_success:
 env:
   - TOXENV=django22
   - TOXENV=django30
+  - TOXENV=django40
+  - TOXENV=django50
