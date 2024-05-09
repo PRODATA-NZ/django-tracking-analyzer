@@ -1,7 +1,8 @@
 language: python
 python:
-  - "3.10"
-  - "3.11"
+  - "3.6"
+  - "3.7"
+  - "3.8"
 
 dist: bionic
 
@@ -30,5 +31,5 @@ after_success:
   - codecov
 
 env:
-  - TOXENV=django40
-  - TOXENV=django50
+  - TOXENV=django22
+  - TOXENV=django30
